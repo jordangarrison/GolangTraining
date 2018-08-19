@@ -1,0 +1,28 @@
+#+TITLE: Golang Training
+#+DATE: <2018-08-16 Wed>
+#+AUTHOR: Jordan Garrison
+#+EMAIL: jordan.andrew.garrison@gmail.com
+#+INFOJS_OPT: view:info mouse: sdepth:1 toc:i
+#+OPTIONS: email:t num:nil p:t toc:nil c:t creator:t
+
+* Golang Training
+  This repo if for use in learning the go language from Todd Mcleod's Udemy course.
+  You can see his repo here: [[https://github.com/GoesToEleven/GolangTraining][GolangTraining]]
+
+  Alternatively you can clone it with the following command:
+  #+BEGIN_SRC bash
+    git clone https://github.com/GoesToEleven/GolangTraining.git
+  #+END_SRC
+  Or better you can download with the go get utility once you have set up your go path using:
+  #+BEGIN_SRC bash
+    go get github.com/GoesToEleven/GolangTraining
+  #+END_SRC
+** Versions
+   | Version | Comment        |
+   |---------+----------------|
+   |   0.1.0 | Initial Commit |
+** A quick note
+   You can keep your go commits clean by running the =go clean= command in your folders prior to commit.
+** Contents
+*** 01_helloWorld
+    First file which contains hello world main.go file.
